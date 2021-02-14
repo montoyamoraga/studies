@@ -42,6 +42,12 @@ Made of fiberglass.
   * 3x LFO TRIANGLE WAVE
   * 3x STEPPED
 
+## Back panel
+
+* 1x USB POWER jack: power with micro USB cable
+* 1x I/0 jack: 
+* 1x OUT jack: 1/8" stereo TRS output, it can drive headphones or connected to a mixer.
+
 ## Modes
 
 * Phase modulation
