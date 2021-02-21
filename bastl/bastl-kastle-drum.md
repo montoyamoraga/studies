@@ -18,8 +18,8 @@ Made of fiberglass.
   * DRUM MOD knob
   * PITCH MOD knob
   * TEMPO MOD knob
-  * DECAY knob 
-  * DRUM knob
+  * DECAY knob: shortest is at center, counter clockwise with pitch mod, clockwise no pitch mod.
+  * DRUM knob: 8 drum synthesis modes
   * PITCH knob
   * TEMPO knob
 
@@ -38,8 +38,8 @@ Made of fiberglass.
   * 2x FEED PATTERN
   * 2x DRUMS
   * 3x NOISES
-  * 3x CLK
-  * 3x LFO
+  * 3x CLK: square wave
+  * 3x LFO: triangle wave
   * 3x PATTERN
 
 ## Back panel
@@ -48,7 +48,21 @@ Made of fiberglass.
 * 1x I/0 jack: 
 * 1x OUT jack: 1/8" stereo TRS output, it can drive headphones or connected to a mixer.
 
-## Modes
+## Voltages
+
+The PATTERN output has 16 steps of stepped voltages.
+
+TRIGGER IN: recognizes 3 different zones of voltages: 1, 2, 3.
+
+When the voltage in TRIGGER IN sees a transition of voltage between 1-3 and 3-1, it responds with a bigger envelope than adjacents zones 1-2, 2-1, 2-3, 3-2.
+
+## Operation
+
+Connect CLK to TRIG IN
+
+Or connect PATTERN to TRIG IN for accented patterns
+
+
 
 ## Reference
 
